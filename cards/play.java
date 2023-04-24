@@ -1,4 +1,4 @@
-package games.cards;
+package cards;
 
 
 
@@ -141,8 +141,7 @@ public class play {
 
 
     public static void TWOplayer() {
-        int CurrentPotPLayer1 = 0;
-        int CurrentPotPLayer2 = 0;
+      int CurrentPot = 0;
         int DealerPot = 0;
         Set<card> hand = new HashSet<>();
         hand = card.generated(1);
